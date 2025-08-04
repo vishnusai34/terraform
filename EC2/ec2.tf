@@ -18,6 +18,6 @@ resource "aws_security_group" "allow_alltraffic" {
     }
 
     tags = {
-        Name: SG_AllowAll
+        Name: "SG_AllowAll"
     }
 }
